@@ -1,7 +1,7 @@
 module main;
 reg a,b;
 wire sum, carry;
-halfadder halfadder_i(a,b,sum.carry);
+halfadder halfadder_i(a,b,sum,carry);
 
 always@(sum or carry)
 begin

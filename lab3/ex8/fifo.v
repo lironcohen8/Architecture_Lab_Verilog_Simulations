@@ -58,12 +58,13 @@ module fifo(clk, reset, in, push, pop, out, full);
 					end
 				else
 					begin
-						words <= words <=;
+						words <= words;
 						cnt <= cnt;						
 					end
+			end
 		
 		// queue is partially full 
-		else if (cnt < N)
+		else if (cnt < N) 
 			begin
 				if (push && pop) // push and pop
 					begin

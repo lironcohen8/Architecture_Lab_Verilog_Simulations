@@ -6,7 +6,7 @@ module main;
    integer error;
 
    // Correct the parameter assignment
-   fifo uut #(4,2) (clk, reset, in, push, pop, out, full);
+   fifo #(4,2) uut(clk, reset, in, push, pop, out, full);
 
    always #5 clk = ~clk;
 
@@ -180,7 +180,7 @@ module main;
 	end
    else
 	begin
-		$display("DID NOT PASS TESTS. ERROR IN %d", error)
+		$display("DID NOT PASS TESTS. ERROR IN %d", error);
 	end
 
    $finish;

@@ -1,0 +1,26 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(28Nov2022:21:35:40):( ncverilog +access+rw fifo_tb.v fifo.v )
+s2::(28Nov2022:21:37:17):( ncverilog +access+rw fifo_tb.v fifo.v )
+s3::(28Nov2022:21:38:03):( ncverilog +access+rw fifo_tb.v fifo.v )
+s4::(28Nov2022:21:39:05):( ncverilog +access+rw fifo_tb.v fifo.v )
+s5::(28Nov2022:21:40:24):( ncverilog +access+rw fifo_tb.v fifo.v )
+s6::(28Nov2022:21:41:22):( ncverilog +access+rw fifo_tb.v fifo.v )
+s7::(28Nov2022:21:43:30):( ncverilog +access+rw fifo_tb.v fifo.v )
+s8::(28Nov2022:21:44:01):( ncverilog +access+rw fifo_tb.v fifo.v )
+s9::(28Nov2022:21:44:14):( ncverilog +access+rw fifo_tb.v fifo.v )
+s10::(28Nov2022:21:44:24):( ncverilog +access+rw fifo_tb.v fifo.v )
+s11::(28Nov2022:21:44:37):( ncverilog +access+rw fifo_tb.v fifo.v )
+s12::(28Nov2022:21:44:50):( ncverilog +access+rw fifo_tb.v fifo.v )
+s13::(28Nov2022:21:45:01):( ncverilog +access+rw fifo_tb.v fifo.v )
+s14::(28Nov2022:21:45:11):( ncverilog +access+rw fifo_tb.v fifo.v )
+s15::(28Nov2022:21:45:24):( ncverilog +access+rw fifo_tb.v fifo.v )
+s16::(28Nov2022:21:45:37):( ncverilog +access+rw fifo_tb.v fifo.v )
+s17::(28Nov2022:21:45:50):( ncverilog +access+rw fifo_tb.v fifo.v )
+s18::(28Nov2022:21:46:01):( ncverilog +access+rw fifo_tb.v fifo.v )
+s19::(28Nov2022:21:46:14):( ncverilog +access+rw fifo_tb.v fifo.v )
+s20::(28Nov2022:21:46:50):( ncverilog +access+rw fifo_tb.v fifo.v )
+s21::(28Nov2022:21:49:13):( ncverilog +access+rw fifo_tb.v fifo.v )
+s22::(28Nov2022:21:50:43):( ncverilog +access+rw fifo_tb.v fifo.v )

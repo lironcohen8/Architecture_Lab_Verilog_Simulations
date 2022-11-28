@@ -1,0 +1,304 @@
+$date
+    Nov 28, 2022  21:50:43
+$end
+$version
+    TOOL:	xmsim(64)	21.09-s006
+$end
+$timescale
+    1 ns
+$end
+
+$scope module main $end
+$var reg       1 !    clk $end
+$var reg       1 "    reset $end
+$var reg       1 #    push $end
+$var reg       1 $    pop $end
+$var reg       2 %    in [1:0] $end
+$var wire      2 &    out [1:0] $end
+$var wire      1 '    full  $end
+$var integer  32 (    error $end
+
+$scope module uut $end
+$var parameter 32 )    N $end
+$var parameter 32 *    M $end
+$var wire      1 +    clk  $end
+$var wire      1 ,    reset  $end
+$var wire      1 -    push  $end
+$var wire      1 .    pop  $end
+$var wire      2 /    in [1:0] $end
+$var wire      2 &    out [1:0] $end
+$var wire      1 '    full  $end
+$var integer  32 0    cnt $end
+$var integer  32 1    is_full $end
+$var reg       8 2    words [7:0] $end
+$var reg       2 3    word_out [1:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b10 *
+b100 )
+1!
+x"
+x#
+x$
+bx %
+b0 &
+1'
+b0 (
+1+
+x,
+x-
+x.
+bx /
+bx 0
+b1 1
+bx 2
+b0 3
+$end
+#5
+0!
+0+
+#10
+1"
+b0 %
+0#
+0$
+1!
+1+
+0.
+0-
+b0 /
+1,
+b0 0
+b0 1
+b0 2
+0'
+#15
+0!
+0+
+#20
+1!
+1+
+#25
+0!
+0+
+#30
+0"
+b10 %
+1$
+1!
+1+
+1.
+b10 /
+0,
+#35
+0!
+0+
+#40
+1!
+1+
+#45
+0!
+0+
+#50
+b11 %
+1#
+0$
+1!
+1+
+0.
+1-
+b11 /
+b11 2
+b1 0
+#55
+0!
+0+
+#60
+1!
+1+
+b11 3
+b111 2
+b10 0
+b11 &
+#65
+0!
+0+
+#70
+b0 %
+0#
+1$
+1!
+1+
+1.
+0-
+b0 /
+b1 2
+b1 0
+#75
+0!
+0+
+#80
+1!
+1+
+b1 3
+b0 2
+b0 0
+b1 &
+#85
+0!
+0+
+#90
+b1 %
+1#
+1!
+1+
+1-
+b1 /
+b0 3
+b1 2
+b1 0
+b0 &
+#95
+0!
+0+
+#100
+1!
+1+
+b1 3
+b1 &
+#105
+0!
+0+
+#110
+b10 %
+0$
+1!
+1+
+0.
+b10 /
+b101 2
+b10 0
+#115
+0!
+0+
+#120
+1!
+1+
+b10101 2
+b11 0
+#125
+0!
+0+
+#130
+b11 %
+1!
+1+
+b11 /
+b1110101 2
+b100 0
+#135
+0!
+0+
+#140
+1!
+1+
+b1 1
+1'
+#145
+0!
+0+
+#150
+1!
+1+
+#155
+0!
+0+
+#160
+1!
+1+
+b1000 (
+#165
+0!
+0+
+#170
+b10 %
+1!
+1+
+b10 /
+#175
+0!
+0+
+#180
+1!
+1+
+#185
+0!
+0+
+#190
+b0 %
+0#
+1$
+1!
+1+
+1.
+0-
+b0 /
+b11101 2
+b11 0
+#195
+0!
+0+
+#200
+1!
+1+
+b0 1
+b111 2
+b10 0
+0'
+#205
+0!
+0+
+#210
+1!
+1+
+b11 3
+b1 2
+b1 0
+b11 &
+#215
+0!
+0+
+#220
+1!
+1+
+b1011 (
+b1 3
+b0 2
+b0 0
+b1 &
+#225
+0!
+0+
+#230
+1"
+0$
+1!
+1+
+0.
+1,
+b0 3
+b0 &
+#235
+0!
+0+
+#240
+1!
+1+
+#245
+0!
+0+
+#250

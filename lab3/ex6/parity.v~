@@ -11,7 +11,7 @@ module parity(clk, in, reset, out);
    always @(posedge clk)
      begin
 	if (reset)
-	  state <= 1;
+	  state <= zero;
 	else
 	  case (state)
 	    0 :
