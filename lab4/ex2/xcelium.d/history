@@ -2,5 +2,7 @@
 // File created by:  xrun
 // Do not modify this file
 
-s1::(28Nov2022:21:25:15):( ncverilog +access+rw halfadder_tb.v halfadder.v )
-s2::(28Nov2022:21:27:02):( ncverilog +access+rw halfadder_tb.v halfadder.v )
+s1::(27Dec2022:15:26:41):( xrun +access+rw halfadder_tb.v halfadder.v )
+s2::(27Dec2022:15:32:28):( xrun +access+rw halfadder_tb.v halfadder.v )
+s3::(27Dec2022:15:33:39):( xrun +access+rw halfadder_tb.v halfadder.v )
+s4::(27Dec2022:19:14:45):( xrun +access+rw halfadder_tb.v halfadder.v )

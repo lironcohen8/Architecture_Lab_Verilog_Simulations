@@ -1,0 +1,18 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.21.09.d
+-RUNMODE
+sat_count_tb.v
+sat_count.v
+-CDSLIB
+./xcelium.d/run.lnx8664.21.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.21.09.d/hdlrun.var
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.21.09.d/xllibs
+-ALLOWUNBOUND

@@ -12,6 +12,8 @@ module	addsub_tb;
 	wire	[3:0]	expect_out = expect[3:0];	// compare "expect_out" with "result"
 
 	// FILL here
+	addsub addsub_i(result, operand_a, operand_b, mode);
+	assign co = overflow;
 
 	// give stimulus pattern
 	initial begin

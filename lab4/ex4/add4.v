@@ -7,11 +7,11 @@ module  add4( sum, co, a, b, ci);
   output  [3:0] sum;
   output  co;
 
-  wire [2:0] r;
+  wire [2:0] c;
 
-  fulladder g0(sum[0], r[0], a[0], b[0], ci);
-  fulladder g0(sum[1], r[1], a[1], b[0], r[0]);
-  fulladder g0(sum[2], r[2], a[2], b[0], r[1]);
-  fulladder g0(sum[3], c0  , a[3], b[0], r[2]);
+  fulladder a0(sum[0], c[0], a[0], b[0], ci);
+  fulladder a1(sum[1], c[1], a[1], b[1], c[0]);
+  fulladder a2(sum[2], c[2], a[2], b[2], c[1]);
+  fulladder a3(sum[3], co  , a[3], b[3], c[2]);
 
 endmodule

@@ -1,0 +1,21 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(27Dec2022:14:44:11):( xrun +access+rw addsub_tb.v addsub.v )
+s2::(27Dec2022:14:47:00):( xrun +access+rw addsub_tb.v addsub.v )
+s3::(27Dec2022:15:03:32):( xrun +access+rw add4.v addsub_tb.v addsub.v )
+s4::(27Dec2022:15:08:29):( xrun +access+rw add4.v addsub_tb.v addsub.v fulladder.v )
+s5::(27Dec2022:15:09:59):( xrun +access+rw add4.v addsub_tb.v addsub.v fulladder.v )
+s6::(27Dec2022:15:10:31):( xrun +access+rw addsub_tb.v addsub.v )
+s7::(27Dec2022:15:12:57):( xrun +access+rw addsub_tb.v addsub.v )
+s8::(27Dec2022:15:39:31):( xrun +access+rw addsub_tb.v addsub.v )
+s9::(27Dec2022:15:44:53):( xrun +access+rw addsub_tb.v addsub.v )
+s10::(27Dec2022:15:45:41):( xrun +access+rw addsub_tb.v addsub.v )
+s11::(27Dec2022:15:46:37):( xrun +access+rw addsub_tb.v addsub.v )
+s12::(27Dec2022:16:05:23):( xrun +access+rw addsub_tb.v addsub.v )
+s13::(27Dec2022:16:10:47):( xrun +access+rw addsub_tb.v addsub.v )
+s14::(27Dec2022:16:10:14):( xrun +access+rw addsub_tb.v addsub.v )
+s15::(27Dec2022:19:11:21):( xrun +access+rw addsub_tb.v addsub.v )
+s16::(27Dec2022:19:17:34):( xrun +access+rw addsub_tb.v addsub.v )
+s17::(27Dec2022:19:19:43):( xrun +access+rw addsub_tb.v addsub.v )

@@ -60,9 +60,8 @@ DEFINE LANG_MAP (\
 	.pslsc => psl_sc,\
 	.vhcfg => vhcfg,\
 	.vhcfgp => vhcfg,\
-	DEF => verilog\
+	DEF => unknown\
 )
-define VIEW_MAP ( $VIEW_MAP, * => verilog)
 define VIEW_MAP ( $VIEW_MAP \
 , .v => v \
 , .vh => vh \
@@ -87,5 +86,3 @@ define VIEW_MAP ( $VIEW_MAP \
 , .svms => svms \
 , .SVMS => SVMS \
 )
-define ELAB_SNAPSHOT
-define SNAPSHOT worklib.main:v

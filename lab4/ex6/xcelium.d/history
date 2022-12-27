@@ -2,5 +2,4 @@
 // File created by:  xrun
 // Do not modify this file
 
-s1::(28Nov2022:21:30:37):( ncverilog +access+rw parity_tb.v parity.v )
-s2::(28Nov2022:21:35:11):( ncverilog +access+rw parity_tb.v parity.v )
+s1::(27Dec2022:16:21:07):( xrun +access+rw parity_tb.v parity.v )

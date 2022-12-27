@@ -1,9 +1,8 @@
 //
-// File created by:  xmverilog
+// File created by:  xrun
 // Do not modify this file
 //
 +access+rw
--noshowtop
 -ACCESS
 +rw
 -MESSAGES

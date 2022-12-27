@@ -1,13 +1,13 @@
 //
-// File created by:  xmverilog
+// File created by:  xrun
 // Do not modify this file
 //
 +access+rw
 -MESSAGES
 +EMGRLOG
-xmverilog.log
+xrun.log
 -XLSTIME
-1669664110
+1672150867
 -XLKEEP
 -XLMODE
 ./xcelium.d/run.lnx8664.21.09.d
@@ -17,6 +17,6 @@ xmverilog.log
 -HDLVAR
 ./xcelium.d/run.lnx8664.21.09.d/hdl.var
 -XLNAME
-xmverilog
+xrun
 -XLVERSION
-"TOOL:	xmverilog	21.09-s006"
+"TOOL:	xrun(64)	21.09-s006"

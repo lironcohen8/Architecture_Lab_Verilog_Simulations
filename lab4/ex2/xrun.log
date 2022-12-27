@@ -1,0 +1,137 @@
+xrun(64): 21.09-s006: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	21.09-s006: Started on Dec 27, 2022 at 19:14:45 IST
+xrun
+	+access+rw
+	halfadder_tb.v
+	halfadder.v
+include ../../../../../../../../../../../../../tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib
+|
+xrun: *W,DLCPTH (./xcelium.d/run.lnx8664.21.09.d/cdsrun.lib,1): cds.lib No such file '/a/../tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib' (cds.lib command ignored).
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xrun: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xrun: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/a/../../../tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xrun: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
+|
+xmvlog: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmvlog: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xmvlog: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/a/../../../tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xmvlog: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 4
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/a/../../../tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xrun: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/a/../../../tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xrun: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
+|
+xmelab: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmelab: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xmelab: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/a/../../../tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xmelab: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		main
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		             Instances  Unique
+		Modules:             2       2
+		Registers:           2       2
+		Scalar wires:        4       -
+		Always blocks:       1       1
+		Initial blocks:      1       1
+		Cont. assignments:   0       2
+		Pseudo assignments:  2       2
+	Writing initial simulation snapshot: worklib.main:v
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
+|
+xmsim: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xmsim: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xmsim: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/a/../../../tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xmsim: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+Loading snapshot worklib.main:v .................... Done
+xcelium> source /tools/cadence/XCELIUM/21.09.006/tools/xcelium/files/xmsimrc
+xcelium> run
+time=                   0:0 + 0 = 0, carry = 0
+
+time=                   5:0 + 1 = 1, carry = 0
+
+time=                  15:1 + 1 = 0, carry = 1
+
+Simulation complete via $finish(1) at time 20 NS + 0
+./halfadder_tb.v:23 $finish;
+xcelium> exit
+TOOL:	xrun(64)	21.09-s006: Exiting on Dec 27, 2022 at 19:14:46 IST  (total: 00:00:01)
