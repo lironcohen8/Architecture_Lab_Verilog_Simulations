@@ -39,7 +39,7 @@ module fifo(clk, reset, in, push, pop, out, full);
 		// calulating word_out 
 		if (cnt > 0)
 			begin
-				word_out <= words & ((1 << M) -1);
+				word_out <= words & ((1 << M) - 1);
 			end
 		else
 			begin
@@ -68,12 +68,12 @@ module fifo(clk, reset, in, push, pop, out, full);
 			begin
 				if (push && pop) // push and pop
 					begin
-						words <= (words >>> M) | (in << (M * (cnt - 1)));
-						cnt <= cnt;					
+						words <= (in << (M * (cnt - 1))) | (words >>> M);
+						cnt <= cnt;				
 					end
 				if (push && ~pop) // only push
 					begin
-						words <= words | (in << (M * cnt - 1));
+						words <= (in << (M * cnt)) | words;
 						cnt <= cnt + 1;					
 					end
 				if (~push && pop) // only pop
@@ -81,7 +81,7 @@ module fifo(clk, reset, in, push, pop, out, full);
 						words <= (words >>> M);
 						cnt <= cnt - 1;					
 					end
-				if (push && pop) // no push and no pop
+				if (~push && ~pop) // no push and no pop
 					begin
 						words <= words;
 						cnt <= cnt;					
@@ -93,7 +93,7 @@ module fifo(clk, reset, in, push, pop, out, full);
 			begin
 				if (push && pop) // push and pop
 					begin
-						words <= (words >>> M) | (in << (M * (cnt - 1)));
+						words <= (in << (M * (cnt - 1))) | (words >>> M);
 						cnt <= cnt;					
 					end
 				if (push && ~pop) // only push
@@ -106,7 +106,7 @@ module fifo(clk, reset, in, push, pop, out, full);
 						words <= (words >>> M);
 						cnt <= cnt - 1;					
 					end
-				if (push && pop) // no push and no pop
+				if (~push && ~pop) // no push and no pop
 					begin
 						words <= words;
 						cnt <= cnt;					

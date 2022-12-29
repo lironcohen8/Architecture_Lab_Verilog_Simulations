@@ -7,7 +7,7 @@
 +EMGRLOG
 xrun.log
 -XLSTIME
-1672161770
+1672317632
 -XLKEEP
 -XLMODE
 ./xcelium.d/run.lnx8664.21.09.d
@@ -21,4 +21,4 @@ xrun
 -XLVERSION
 "TOOL:	xrun(64)	21.09-s006"
 -XLNAME
-./xcelium.d/run.lnx8664.21.09.d/micron1.eng.tau.ac.il_191992
+./xcelium.d/run.lnx8664.21.09.d/micron7.eng.tau.ac.il_87489

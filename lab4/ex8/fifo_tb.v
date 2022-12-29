@@ -109,14 +109,14 @@ module main;
 	end
 
    #10
-   // test 8 - push to paritally full queue, should be full = 0, out = 1, n = 4 , <3,3,2,1>
+   // test 8 - push to paritally full queue, should be full = 1, out = 1, n = 4 , <3,3,2,1>
    reset = 0;
    in = 3;
    push = 1;
    pop = 0;
 
    #10 
-   if (full != 0 | out != 1)
+   if (full != 1 | out != 1)
 	begin
 		error <= 8;
 	end

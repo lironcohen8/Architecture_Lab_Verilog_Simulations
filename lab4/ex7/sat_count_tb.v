@@ -5,11 +5,11 @@ integer error_counter;
 
 sat_count sat_count_i(clk, reset, branch, taken, prediction);
 
-always #5 clk = ~clk;
-
-begin
-$display("time=%d:%b + %b = %b, carry = %b\n", $time, a, b, sum, carry);
+always begin 
+	#5 clk = ~clk;
 end
+//always@(prediction) begin
+//end
 
 initial
 begin
@@ -26,6 +26,7 @@ taken = 0;
 reset = 0;
 branch = 1; 
 taken = 1;
+#10
 if (prediction != 0)
     begin
         $display("error in test 1");
