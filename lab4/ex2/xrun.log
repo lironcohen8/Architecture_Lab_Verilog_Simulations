@@ -1,12 +1,33 @@
 xrun(64): 21.09-s006: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	21.09-s006: Started on Dec 27, 2022 at 19:14:45 IST
+TOOL:	xrun(64)	21.09-s006: Started on Dec 29, 2022 at 17:43:25 IST
 xrun
 	+access+rw
 	halfadder_tb.v
 	halfadder.v
-include ../../../../../../../../../../../../../tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
 |
-xrun: *W,DLCPTH (./xcelium.d/run.lnx8664.21.09.d/cdsrun.lib,1): cds.lib No such file '/a/../tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib' (cds.lib command ignored).
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/a/../../../tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xrun: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
+SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
+|
+xrun: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
+DEFINE Cadence_libs ./Cadence_libs
+|
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
+|
+xrun: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
 DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
 |
 xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
@@ -27,10 +48,11 @@ SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
 xrun: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
 DEFINE Cadence_libs ./Cadence_libs
 |
-xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
+xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/a/../../../tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
 ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
 |
 xrun: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
+Recompiling... reason: unable to stat '/./a/home/cc/students/cs/yuvalmor/Desktop/lab4/ex2/halfadder.v'.
 DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
 |
 xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
@@ -134,4 +156,4 @@ time=                  15:1 + 1 = 0, carry = 1
 Simulation complete via $finish(1) at time 20 NS + 0
 ./halfadder_tb.v:23 $finish;
 xcelium> exit
-TOOL:	xrun(64)	21.09-s006: Exiting on Dec 27, 2022 at 19:14:46 IST  (total: 00:00:01)
+TOOL:	xrun(64)	21.09-s006: Exiting on Dec 29, 2022 at 17:43:26 IST  (total: 00:00:01)

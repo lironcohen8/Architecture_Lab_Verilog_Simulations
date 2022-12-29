@@ -1,5 +1,5 @@
 xrun(64): 21.09-s006: (c) Copyright 1995-2022 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	21.09-s006: Started on Dec 29, 2022 at 14:40:32 IST
+TOOL:	xrun(64)	21.09-s006: Started on Dec 29, 2022 at 17:53:01 IST
 xrun
 	+access+rw
 	fifo_tb.v
@@ -53,8 +53,8 @@ ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic 
 |
 xrun: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
 Recompiling... reason: file './fifo_tb.v' is newer than expected.
-	expected: Thu Dec 29 14:43:16 2022
-	actual:   Thu Dec 29 14:43:54 2022
+	expected: Thu Dec 29 14:43:54 2022
+	actual:   Thu Dec 29 14:44:14 2022
 DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
 |
 xrun: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
@@ -79,9 +79,6 @@ xmvlog: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds
 ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
 |
 xmvlog: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
-file: fifo_tb.v
-	module worklib.main:v
-		errors: 0, warnings: 0
 	Total errors/warnings found outside modules and primitives:
 		errors: 0, warnings: 4
 DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
@@ -125,21 +122,6 @@ xmelab: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds
 	Top level design units:
 		main
 	Building instance overlay tables: .................... Done
-	Generating native compiled code:
-DEFINE rfTlineLib $(compute:THIS_TOOL_INST_ROOT)/tools/dfII/samples/artist/rfTlineLib
-|
-xmvlog_cg: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,8): cds.lib Invalid path '/tools/cadence/XCELIUM/21.09.006/tools/dfII/samples/artist/rfTlineLib' (cds.lib command ignored).
-SOFTINCLUDE $EMXHOME/emxinterface/cds.lib
-|
-xmvlog_cg: *W,DLCVAR (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,14): cds.lib Invalid environment variable ''.
-DEFINE Cadence_libs ./Cadence_libs
-|
-xmvlog_cg: *W,DLCPTH (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,16): cds.lib Permission denied '/a/../../../tools/cadence/IC/06.18.230/tools/dfII/local/Cadence_libs' (cds.lib command ignored).
-ASSIGN Cadence_libs COMBINE analogLib rfLib rfExamples ahdlLib passiveLib basic US_8ths rfTlineLib
-|
-xmvlog_cg: *W,DLCLIB (/tools/cadence/IC/06.18.230/tools/dfII/local/cds.lib,17): cds.lib Library not defined 'Cadence_libs' (cds.lib command ignored).
-		worklib.main:v <0x18b4b47f>
-			streams:   8, words: 15027
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -172,4 +154,4 @@ PASSED ALL TESTS
 Simulation complete via $finish(1) at time 250 NS + 0
 ./fifo_tb.v:186    $finish;
 xcelium> exit
-TOOL:	xrun(64)	21.09-s006: Exiting on Dec 29, 2022 at 14:40:33 IST  (total: 00:00:01)
+TOOL:	xrun(64)	21.09-s006: Exiting on Dec 29, 2022 at 17:53:01 IST  (total: 00:00:00)

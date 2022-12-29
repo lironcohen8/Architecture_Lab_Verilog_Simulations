@@ -4,3 +4,4 @@
 
 s1::(27Dec2022:14:39:31):( xrun +access+rw mux_tb.v mux.v )
 s2::(27Dec2022:15:19:10):( xrun +access+rw mux_tb.v mux.v )
+s3::(29Dec2022:17:42:10):( xrun +access+rw mux_tb.v mux.v )

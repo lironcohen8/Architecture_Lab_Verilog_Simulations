@@ -2,4 +2,4 @@
 // File created by:  xrun
 // Do not modify this file
 
-s1::(27Dec2022:16:21:07):( xrun +access+rw parity_tb.v parity.v )
+s1::(29Dec2022:17:51:23):( xrun +access+rw parity_tb.v parity.v )
